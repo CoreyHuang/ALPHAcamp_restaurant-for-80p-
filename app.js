@@ -1,7 +1,7 @@
 //Server default setting
 const express = require('express')
 const app = express()
-const host = 3000
+const host = 80
 
 //Require restaurant json file
 const restaurants = require('./restaurant.json').results
